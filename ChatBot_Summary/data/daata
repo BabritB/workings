@@ -1,0 +1,1146 @@
+
+CON 1:
+
+{
+"_id" : ObjectId("5e95ac6ecd19726c467872cd5"),
+"created_at" : ISODate("2020-05-14T12:26:37.177Z"),
+"timeStamp" : NumberLong(1586867311280),
+"hostName" : "http://nquantum",
+"lead_generations" : 1,
+"device" : mobile,
+"questions" : [
+"I want to know about your services",
+"/quanta",
+"thanks"
+],
+"conversation" : [
+
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(1586867236070),
+"message" : "I want to know about your services"
+},
+{
+"type" : "botMessage",
+"timestamp" : NumberLong(1586867238086),
+"message" : "utter_service enquiry"},
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(1586867240838),
+"message" : "/quanta"
+},
+
+ {
+"type" : "botMessage",
+"timestamp" : NumberLong(1586867238086),
+"message" : "utter_info quanta"},
+
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(1586867240838),
+"message" : "thanks"
+},
+{
+"type" : "botMessage",
+"timestamp" : NumberLong(1586867238086),
+"message" : "utter_send wish"},
+],
+
+
+
+}
+]
+}
+]
+}
+
+CON 2:
+
+{
+"_id" : ObjectId("5e95ac6ecd19726c467872dr9"),
+"created_at" : ISODate("2020-05-14T12:20:17.77Z"),
+"timeStamp" : NumberLong(1589439017000),
+"hostName" : "http://nquantum",
+"lead_generations" : 3,
+"device" : computer
+
+"questions" : [
+"may i know your services",
+"/qspeech",
+"any advanced feature you have",
+"thats nice"'
+"okay"
+
+],
+"conversation" : [
+
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(1589439017000),
+"message" : "may i know your services"
+},
+{
+"type" : "botMessage",
+"timestamp" : NumberLong(1589439018000),
+"message" : "utter_service enquiry"},
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(1589439022000),
+"message" : "/qspeech"
+},
+
+ {
+"type" : "botMessage",
+"timestamp" : NumberLong(1589439032000),
+"message" : "utter_info_qspeech"},
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(1589439039000),
+"message" : "any advanced feature you have"
+},
+
+ {
+"type" : "botMessage",
+"timestamp" : NumberLong(1589439052000),
+"message" : "utter_advanced_qspeech"},
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(1589439232000),
+"message" : "thats nice"
+},
+{
+"type" : "botMessage",
+"timestamp" : NumberLong(1589439240000),
+"message" : "utter_send_wish"},
+],
+
+
+
+}
+]
+}
+]
+}
+
+CON 3:
+
+{
+"_id" : ObjectId("5e95ac6ecd19726c467872as2"),
+"created_at" : ISODate("2020-05-14T03:46:37.177Z"),
+"timeStamp" : NumberLong(1589408197000),
+"hostName" : "http://nquantum",
+"lead_generations" : 1,
+"device" : mobile
+"questions" : [
+"which type of services you are providing",
+"/quanta",
+"can you describe more about quanta",
+"thanks for the info"
+],
+"conversation" : [
+
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(1589408197000),
+"message" : "which type of services you are providing"
+},
+{
+"type" : "botMessage",
+"timestamp" : NumberLong(1589408799000),
+"message" : "utter_service_enquiry"},
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(1589408979000),
+"message" : "/quanta"
+},
+
+ {
+"type" : "botMessage",
+"timestamp" : NumberLong(1589408983000),
+"message" : "utter_info_quanta"},
+
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(1589409163000),
+"message" : "can you describe more about quanta"
+},
+{
+"type" : "botMessage",
+"timestamp" : NumberLong(1589409167000),
+"message" : "utter_advanced_quanta"},
+ {
+"type" : "visitorMessage",
+"timestamp" : NumberLong(1589409347000),
+"message" : "thanks"},
+{
+"type" : "botMessage",
+"timestamp" : NumberLong(1589409349000),
+"message" : "utter_send wish"},
+],
+
+
+
+}
+]
+}
+]
+}
+CON 4:
+
+
+
+
+{
+"_id" : ObjectId("5e95ac6ecd19726c467872er4"),
+"created_at" : ISODate("2020-05-14T10:06:07.177Z"),
+"timeStamp" : NumberLong(1589430967000),
+"hostName" : "http://minikroft",
+"lead_generations" : 1,
+"device" : mobile
+"questions" : [
+"hello",
+"/subscription",
+"thanks"
+],
+"conversation" : [
+
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(1589430967000),
+"message" : "hello"
+},
+{
+"type" : "botMessage",
+"timestamp" : NumberLong(1589430974000),
+"message" : "utter_service_enquiry"},
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(1589431154000),
+"message" : "/subscription"
+},
+
+ {
+"type" : "botMessage",
+"timestamp" : NumberLong(1589431159000),
+"message" : "utter_subscription_plan"},
+
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(1589431199000),
+"message" : "thanks"
+},
+{
+"type" : "botMessage",
+"timestamp" : NumberLong(1589431209000),
+"message" : "utter_send_wish"},
+],
+
+
+
+}
+]
+}
+]
+}
+
+CON 5 :
+
+{
+"_id" : ObjectId("5e95ac6ecd19726c467872nm8"),
+"created_at" : ISODate("2020-05-14T11:56:37.177Z"),
+"timeStamp" : NumberLong(1589437597000),
+"hostName" : "http://minikroft",
+"lead_generations" : 2,
+"device" : desktop
+"questions" : [
+"how can i subscribe your package",
+"/subscription",
+"any discounts for yearly subscription",
+"thanks"
+],
+"conversation" : [
+
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(1589437597000),
+"message" : "how can i subscribe your package"
+},
+{
+"type" : "botMessage",
+"timestamp" : NumberLong(1589437599000),
+"message" : "utter_service_enquiry"},
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(1589437612000),
+"message" : "/subscription"
+}
+
+ {
+"type" : "botMessage",
+"timestamp" : NumberLong( 1589437616000),
+"message" : "utter_subscription_plan"},
+
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(1589437736000),
+"message" : "any discounts for yearly subscription"
+},
+{
+"type" : "botMessage",
+"timestamp" : NumberLong(1589437739000),
+"message" : "utter_send_offers"},
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(1589437979000),
+"message" : "thanks"
+},
+{
+"type" : "botMessage",
+"timestamp" : NumberLong(1589437982000),
+"message" : "utter_send_wish"},
+],
+
+
+
+}
+]
+}
+]
+}
+CON 6:
+
+
+{{
+"_id" : ObjectId("5e95ac6ecd19726c467872iu9"),
+"created_at" : ISODate("2020-05-14T06:26:17.177Z"),
+"timeStamp" : NumberLong(1589417777000),
+"hostName" : "http://minikroft",
+"lead_generations" : 2,
+"device" : desktop
+"questions" : [
+"i need subscription",
+"/subscription",
+"can i change my package details freequently",
+"thanks"
+],
+"conversation" : [
+
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(1589417957000),
+"message" : "i need subscription"
+},
+{
+"type" : "botMessage",
+"timestamp" : NumberLong(1589417967000),
+"message" : "utter_service_enquiry"},
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(1589417967000),
+"message" : "/subscription"
+},
+
+ {
+"type" : "botMessage",
+"timestamp" : NumberLong(1589418029000),
+"message" : "utter_subscription_plan"},
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(1589418089000),
+"message" : "can i change my package details freequently"
+},
+
+ {
+"type" : "botMessage",
+"timestamp" : NumberLong(1589418091000),
+"message" : "utter_changes_plan"},
+
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(11589418211000),
+"message" : "thanks"
+},
+{
+"type" : "botMessage",
+"timestamp" : NumberLong(1589418214000),
+"message" : "utter_send wish"},
+],
+
+
+
+}
+]
+}
+]
+}
+
+CON 8:
+
+{
+"_id" : ObjectId("5e95ac6ecd19726c467872fg5"),
+"created_at" : ISODate("2020-05-14T09:29:37.177Z"),
+"timeStamp" : NumberLong(1589428777000),
+"hostName" : "http://clowork",
+"lead_generations" : 2,
+"device" : desktop
+"questions" : [
+"what type of plans you are giving",
+"/monthly",
+"any special offers for yearly plan",
+"/yearly",
+"thanks"
+],
+"conversation" : [
+
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(11589428897000),
+"message" : "what type of plans you are giving"
+},
+{
+"type" : "botMessage",
+"timestamp" : NumberLong(1589428901000),
+"message" : "utter_service_enquiry"},
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(1589428912000),
+"message" : "/monthly"
+},
+
+ {
+"type" : "botMessage",
+"timestamp" : NumberLong(1589428916000),
+"message" : "utter_plans"},
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(1589428980000),
+"message" : "any offers for yearly plan"
+},
+
+ {
+"type" : "botMessage",
+"timestamp" : NumberLong(1589429046000),
+"message" : "utter_plans"},
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(1589429058000),
+"message" : "/yearly"
+},
+
+ {
+"type" : "botMessage",
+"timestamp" : NumberLong(1589429062000),
+"message" : "utter_send_offers"},
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(1589429178000),
+"message" : "thanks"
+},
+{
+"type" : "botMessage",
+"timestamp" : NumberLong(1589429069000),
+"message" : "utter_send wish"},
+],
+
+
+
+}
+]
+}
+]
+}
+CON 9:
+
+{
+"_id" : ObjectId("5e95ac6ecd19726c467872gf8"),
+"created_at" : ISODate("2020-05-14T20:26:37.177Z"),
+"timeStamp" : NumberLong(1589468197000),
+"hostName" : "http://clowork",
+"lead_generations" : 3,
+"device" : desktop
+"questions" : [
+"i am looking for hosting an event on coming weekend ",
+"/eventhosting",
+"please block  next weekend"
+],
+"conversation" : [
+
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(1589468197000),
+"message" : "i am looking for hosting an event on coming weekend"
+},
+{
+"type" : "botMessage",
+"timestamp" : NumberLong(1589468199000),
+"message" : "utter_service_enquiry"},
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(1589468259000),
+"message" : "/eventhosting"
+},
+
+ {
+"type" : "botMessage",
+"timestamp" : NumberLong(1589468265000),
+"message" : "utter_events"},
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(1589468445000),
+"message" : "please block next weekend"
+},
+
+ {
+"type" : "botMessage",
+"timestamp" : NumberLong(1589468448000),
+"message" : "utter_event_confirm"},
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(1589468568000),
+"message" : "thanks"
+},
+{
+"type" : "botMessage",
+"timestamp" : NumberLong(1589468574000),
+"message" : "utter_send wish"},
+],
+
+
+
+}
+]
+}
+]
+}
+
+CON 10:
+
+{
+"_id" : ObjectId("5e95ac6ecd19726c467872gd4"),
+"created_at" : ISODate("2020-05-14T17:26:26.177Z"),
+"timeStamp" : NumberLong(1589457386000),
+"hostName" : "http://clowork",
+"lead_generations" : 1,
+"device" : mobile
+"questions" : [
+"what are your services",
+"/colive",
+"what is the price per 2 share",
+"any discount for the payment for 1 year",
+"/paymentoffers",
+"thanks"
+],
+"conversation" : [
+
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(1589457506000),
+"message" : "what are your services"
+},
+{
+"type" : "botMessage",
+"timestamp" : NumberLong(1589457510000),
+"message" : "utter_service_enquiry"},
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(1589457630000),
+"message" : "/colive"
+},
+
+ {
+"type" : "botMessage",
+"timestamp" : NumberLong(1589457633000),
+"message" : "utter_info_living"},
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(1589457753000),
+"message" : "what is the price for  2 share"
+},
+
+ {
+"type" : "botMessage",
+"timestamp" : NumberLong(1589457758000),
+"message" : "utter_info_pricing"},
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(1589457878000),
+"message" : "any discount for the payment for 1 year"
+},
+
+ {
+"type" : "botMessage",
+"timestamp" : NumberLong(1589457889000),
+"message" : "utter_info_offers"},
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(1589458009000),
+"message" : "thanks"
+},
+{
+"type" : "botMessage",
+"timestamp" : NumberLong(1589458009000),
+"message" : "utter_send wish"},
+],
+
+
+
+}
+]
+}
+]
+}
+
+
+CON 11:
+
+{
+"_id" : ObjectId("5e95ac6ecd19726c467872yt6"),
+"created_at" : ISODate("2020-05-14T08:28:16.177Z"),
+"timeStamp" : NumberLong(1589425096000),
+"hostName" : "http://i2",
+"lead_generations" : 3,
+"device" : mobile
+"questions" : [
+"what are your services",
+"/tutorials",
+"i need python basics",
+"thanks"
+],
+"conversation" : [
+
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(1589425106000),
+"message" : "what are your services"
+},
+{
+"type" : "botMessage",
+"timestamp" : NumberLong(1589425109000),
+"message" : "utter_service_enquiry"},
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(1589425229000),
+"message" : "/tutorials"
+},
+
+ {
+"type" : "botMessage",
+"timestamp" : NumberLong(1589425233000),
+"message" : "utter_send_tutorial"},
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(1589425353000),
+"message" : "i need python basics"
+},
+
+ {
+"type" : "botMessage",
+"timestamp" : NumberLong(1589425356000),
+"message" : "utter_send_tutorial"},
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(1589425476000),
+"message" : "thanks"
+},
+
+ 
+{
+"type" : "botMessage",
+"timestamp" : NumberLong(1589425478000),
+"message" : "utter_send wish"},
+],
+
+
+
+}
+]
+}
+]
+}
+
+
+CON 12:
+
+{
+"_id" : ObjectId("5e95ac6ecd19726c467872ju8"),
+"created_at" : ISODate("2020-05-14T12:26:26.177Z"),
+"timeStamp" : NumberLong(1589439386000),
+"hostName" : "http://i2",
+"lead_generations" : 2,
+"device" : mobile
+"questions" : [
+"what are your services",
+"/trainings",
+"what is the fee of AI course",
+"thanks"
+],
+"conversation" : [
+
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(1589439386000),
+"message" : "what are your services"
+},
+{
+"type" : "botMessage",
+"timestamp" : NumberLong(1589439389000),
+"message" : "utter_service_enquiry"},
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(1589439509000),
+"message" : "/trainings"
+},
+
+ {
+"type" : "botMessage",
+"timestamp" : NumberLong(1589439511000),
+"message" : "utter_send_trainings"},
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(1589439631000),
+"message" : "what is the fee of AI course"
+},
+
+ {
+"type" : "botMessage",
+"timestamp" : NumberLong(1589439634000),
+"message" : "utter_send_fee"},
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(1589439754000),
+"message" : "thanks"
+},
+{
+"type" : "botMessage",
+"timestamp" : NumberLong(1589439756000),
+"message" : "utter_send wish"},
+],
+
+
+
+}
+]
+}
+]
+}
+
+
+CON 13:
+
+{
+"_id" : ObjectId("5e95ac6ecd19726c467872jh8"),
+"created_at" : ISODate("2020-05-14T17:26:26.177Z"),
+"timeStamp" : NumberLong(1589457386000),
+"hostName" : "http://i2",
+"lead_generations" : 4,
+"device" : desktop
+"questions" : [
+"what are your services",
+"/tutorials",
+"/devops",
+"any video tutorials are there",
+"/video",
+"thanks"
+],
+"conversation" : [
+
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(1589457506000),
+"message" : "what are your services"
+},
+{
+"type" : "botMessage",
+"timestamp" : NumberLong(1589457510000),
+"message" : "utter_service_enquiry"},
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(1589457630000),
+"message" : "/tutorials"
+},
+
+ {
+"type" : "botMessage",
+"timestamp" : NumberLong(1589457633000),
+"message" : "utter_send_tutorials"},
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(1589457753000),
+"message" : "/devops"
+},
+
+ {
+"type" : "botMessage",
+"timestamp" : NumberLong(1589457758000),
+"message" : "utter_devops_link"},
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(1589457878000),
+"message" : "any video tutorials are there"
+},
+
+ {
+"type" : "botMessage",
+"timestamp" : NumberLong(1589457889000),
+"message" : "utter_video"},
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(1589458009000),
+"message" : "thanks"
+},
+{
+"type" : "botMessage",
+"timestamp" : NumberLong(1589458009000),
+"message" : "utter_send wish"},
+],
+
+
+
+}
+]
+}
+]
+}
+
+
+CON 14:
+
+{
+"_id" : ObjectId("5e95ac6ecd19726c467872gd4"),
+"created_at" : ISODate("2020-05-14T07:16:25.177Z"),
+"timeStamp" : NumberLong(1589420785000),
+"hostName" : "http://i2",
+"lead_generations" : 4,
+"device" : mobile
+"questions" : [
+"what are your services",
+"/trainings",
+"i need python class timings",
+"thanks"
+],
+"conversation" : [
+
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(1589420785000),
+"message" : "what are your services"
+},
+{
+"type" : "botMessage",
+"timestamp" : NumberLong( 1589420788000),
+"message" : "utter_service_enquiry"},
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(1589420792000),
+"message" : "/trainings"
+},
+
+ {
+"type" : "botMessage",
+"timestamp" : NumberLong(1589420793000),
+"message" : "utter_send_trainings"},
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(1589420798000),
+"message" : "i need python course timings"
+},
+
+ {
+"type" : "botMessage",
+"timestamp" : NumberLong(1589420800000),
+"message" : "utter_timings"},
+
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(1589420804000),
+"message" : "thanks"
+},
+{
+"type" : "botMessage",
+"timestamp" : NumberLong(1589420805000),
+"message" : "utter_send wish"},
+],
+
+
+
+}
+]
+}
+]
+}
+
+
+CON 15:
+
+{
+"_id" : ObjectId("5e95ac6ecd19726c467872gd4"),
+"created_at" : ISODate("2020-05-14T22:26:16.177Z"),
+"timeStamp" : NumberLong(1589475376000),
+"hostName" : "http://i2",
+"lead_generations" : 0,
+"device" : desktop
+"questions" : [
+"what are your services",
+"/tutorials",
+"/fullstack tutorial",
+"thanks"
+],
+"conversation" : [
+
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(1589475376000),
+"message" : "what are your services"
+},
+{
+"type" : "botMessage",
+"timestamp" : NumberLong(1589475378000),
+"message" : "utter_service_enquiry"},
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(1589475389000),
+"message" : "/tutorials"
+},
+
+ {
+"type" : "botMessage",
+"timestamp" : NumberLong(1589475393000),
+"message" : "utter_send_tutorial"},
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(1589475420000),
+"message" : "/fullstack tutorial"
+},
+
+ {
+"type" : "botMessage",
+"timestamp" : NumberLong(1589475426000),
+"message" : "utter_fullstack_link"},
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(1589475430000),
+"message" : "thanks"
+},
+{
+"type" : "botMessage",
+"timestamp" : NumberLong(1589475432000),
+"message" : "utter_send wish"},
+],
+
+
+
+}
+]
+}
+]
+}
+
+CON 16:
+
+{
+"_id" : ObjectId("5e95ac6ecd19726c467872oo9"),
+"created_at" : ISODate("2020-05-14T23:26:06.177Z"),
+"timeStamp" : NumberLong(1589478966000),
+"hostName" : "http://localhost",
+"lead_generations" : 4,
+"device" : mobile
+"questions" : [
+"which type of courses you are providing",
+"/trainings",
+"thanks"
+],
+"conversation" : [
+
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(1589478966000),
+"message" : "which type of courses you are providing"
+},
+{
+"type" : "botMessage",
+"timestamp" : NumberLong(1589478970000),
+"message" : "utter_service_enquiry"},
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(1589478979000),
+"message" : "/trainings"
+},
+
+ {
+"type" : "botMessage",
+"timestamp" : NumberLong(1589478981000),
+"message" : "utter_send_trainings"},
+
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(1589479041000),
+"message" : "thanks"
+},
+{
+"type" : "botMessage",
+"timestamp" : NumberLong(1589479045000),
+"message" : "utter_send wish"},
+],
+
+
+
+}
+]
+}
+]
+}
+
+
+CON 17:
+{
+"_id" : ObjectId("5e95ac6ecd19726c467872ae5"),
+"created_at" : ISODate("2020-05-14T15:24:12.177Z"),
+"timeStamp" : NumberLong(1589450052),
+"hostName" : "http://dspaces",
+"lead_generations" : 2,
+"device" : desktop
+"questions" : [
+"i want to know about your services",
+"elevations",
+"send me some elevations designs",
+"#premkumar#9705698361#"
+"i want more information"
+"send me brochure"
+],
+"conversation" : [
+
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(1589450112000),
+"message" : "i want to know about your services"
+},
+{
+"type" : "botMessage",
+"timestamp" : NumberLong(1589450172000),
+"message" : "utter_service_enquiry"},
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(1589450200000),
+"message" : "/elevations"
+},
+
+ {
+"type" : "botMessage",
+"timestamp" : NumberLong(1589450250000),
+"message" : "utter_need_info"},
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(1589450310000),
+"message" : "#premkumar#9705698361#"
+},
+
+ {
+"type" : "botMessage",
+"timestamp" : NumberLong(1589450330000),
+"message" : "utter_thanks_for_details"},
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(1589450390000),
+"message" : "i want more information"
+},
+{
+"type" : "botMessage",
+"timestamp" : NumberLong(1589450400000),
+"message" : "utter_services"},
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(1589450520000),
+"message" : "send me brochure"
+},
+{
+"type" : "botMessage",
+"timestamp" : NumberLong(1589450640000),
+"message" : "utter_brochure"}
+],
+}
+]
+}
+]
+}
+
+CON 18:
+
+{
+"_id" : ObjectId("5e95ac6ecd19726c467872ae5"),
+"created_at" : ISODate("2020-05-14T15:24:12.177Z"),
+"timeStamp" : NumberLong(1589465040000),
+"hostName" : "http://i2tutorials",
+"lead_generations" : 1,
+"device" : mobile
+"questions" : [
+"i want to learn datascience", 
+"#nagaraju#8184997350#",
+"any python tutorial you have",
+"/online_training"
+"what is the course fee"
+"thanks"
+],
+"conversation" : [
+
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(1589465100000),
+"message" : "i want to learn datascience"
+},
+{
+"type" : "botMessage",
+"timestamp" : NumberLong(1589465120000),
+"message" : "utter_courses"},
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(1589465140000),
+"message" : "#nagaraju#8184997350#"
+},
+
+ {
+"type" : "botMessage",
+"timestamp" : NumberLong(1589465200000),
+"message" : "utter_thanks_for_info"},
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(1589465207000),
+"message" : "any python tutorial you have"
+},
+
+ {
+"type" : "botMessage",
+"timestamp" : NumberLong(1589465227000),
+"message" : "utter_tutorials"},
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(1589465287000),
+"message" : "/online_training"
+},
+{
+"type" : "botMessage",
+"timestamp" : NumberLong(1589465297000),
+"message" : "utter_oline_training"},
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(1589465357000),
+"message" : "what is the course fee"
+},
+{
+"type" : "botMessage",
+"timestamp" : NumberLong(1589465367000),
+"message" : "utter_course_fee"},
+{
+"type" : "visitorMessage",
+"timestamp" : NumberLong(1589465427000),
+"message" : "thanks"
+},
+{
+"type" : "botMessage",
+"timestamp" : NumberLong(1589465447000),
+"message" : "utter_thanks"}
+],
+}
+]
+}
+]
+}

@@ -1,62 +1,24 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
-
 import numpy as np
 import pandas as pd
 import json
 import string
 from random import randint
 
-
-# In[2]:
-
-
 # You only need to set the file name with path in the file_abs
-
-
-# In[3]:
-
 
 # Enter the file name including the path.
 file_abs='data/final_format'
 
-
-# In[4]:
-
-
 final=open(file_abs).read()
-
-
-# In[5]:
-
-
 all_list=final.split('\n')
-
-
-# In[6]:
-
-
 strip_item=[]
-
-
-# In[7]:
-
-
 for item in all_list:
     strip_item.append(item.strip())
 
-
-# In[8]:
-
-
 result_dict=dict()
-
-
-# In[9]:
-
 
 i=0
 sub_list=[]
@@ -69,21 +31,8 @@ for item in strip_item:
         continue
     sub_list.append(item)
 
-
-# In[10]:
-
-
 #result_dict
-
-
-# In[11]:
-
-
 resultant=dict()
-
-
-# In[12]:
-
 
 for result in result_dict.keys():
     i=0
@@ -100,23 +49,9 @@ for result in result_dict.keys():
             word_data=[]
             i+=1
     resultant[result]=word_dict       
-
-
-# In[13]:
-
-
 #resultant
 
-
-# In[14]:
-
-
 # Similarly we can do for each and every result in a loop from keys. Result 1, Result 2..... and so on...
-
-
-# In[15]:
-
-
 def has_num(s):
     return any(i.isdigit() for i in s)
 def convert_time(lst):
@@ -126,10 +61,6 @@ def convert_time(lst):
         time+=lst[1].split(':')[1].strip()
     else:time+='0'
     return time     
-
-
-# In[16]:
-
 
 for key_res in resultant.keys():
     print(f'[{key_res}] [STARTS **********] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] []')
@@ -150,8 +81,6 @@ for key_res in resultant.keys():
             i=0 
     print(f'[{key_res}] [ENDS **********] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] []')
 
-
-# In[ ]:
 
 
 
